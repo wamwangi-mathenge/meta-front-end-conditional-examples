@@ -24,3 +24,27 @@ if(light == "green") {
     console.log("Traffic light malfunction")
 }
 ```
+
+
+However, if there are a lot of possible outcomes, it is best practice to use a switch statement because it is easier and less verbose.
+
+Here's an example using the switch syntax
+
+~~~
+var light = "violet";
+
+switch(light) {
+    case "green":
+        console.log("Drive");
+        break;
+    case "orange":
+        console.log("Get Ready");
+        break;
+    case "red":
+        console.log("Don't Drive");
+        break;
+    default:
+        console.log("Traffic light malfunction");
+        break;
+}
+~~~
