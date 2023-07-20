@@ -11,3 +11,5 @@ if(light == "green") {
 } else {
     console.log("Traffic light malfunction")
 }
+
+
